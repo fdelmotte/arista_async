@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "arista_async"
+version = "0.1.0"
+description = ""
+authors = ["dwarf <fd@arista.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+aio-eapi = "^0.3.0"
+asyncio = "^3.4.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
